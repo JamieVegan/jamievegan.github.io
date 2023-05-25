@@ -1,3 +1,3 @@
 # jamievegan.github.io
 
-https://jamievegan.github.io/
+[Website](https://jamievegan.github.io/)
