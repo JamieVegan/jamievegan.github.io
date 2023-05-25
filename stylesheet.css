@@ -1,0 +1,45 @@
+#Content {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: auto auto;
+    background: #ffffff;
+    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.5);
+}
+
+#Title {
+    font-size: 4rem
+}
+
+#BackButton {
+    font-weight: normal;
+    font-size: 2rem;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 83px;
+    height: 83px;
+
+    border-radius: 0px;
+    border: 1px solid #9a9a9a;
+    border-top-width: 0px;
+    border-right-width: 0px;
+}
+
+.Text {
+    font-family: "Consolas";
+    font-weight: normal;
+    margin: 0;
+    padding-left: 1.5%;
+}
+
+.Link {
+    font-size: 4rem;
+    text-decoration: 0
+}
+
+.SmallLink {
+    font-size: 2rem;
+    text-decoration: 0
+}
