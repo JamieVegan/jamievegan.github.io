@@ -1,45 +1,83 @@
-#Content {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    margin: auto auto;
-    background: #ffffff;
-    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.5);
+body {
+	background: #f0f0f0;
+	margin: 0
 }
 
-#Title {
-    font-size: 4rem
+p {
+	margin: inherit;
+	font-family: "Consolas";
+	font-weight: normal;
+	font-size: 2rem;
+}
+
+a {
+	font-family: "Consolas";
+	font-weight: normal;
+}
+
+h1 {
+	font-family: "Consolas";
+	font-weight: normal;
+}
+
+#Content {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	margin: auto auto;
+	background: #ffffff;
+	box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.5);
+}
+
+.Title {
+	font-size: 4rem;
 }
 
 #BackButton {
-    font-weight: normal;
-    font-size: 2rem;
+	font-weight: normal;
+	font-size: 2rem;
 
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 84px;
-    height: 84px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 84px;
+	height: 84px;
 
-    border-radius: 0px;
-    border: 1px solid #9a9a9a;
-    border-top-width: 0px;
-    border-right-width: 0px;
+	border-radius: 0px;
+	border: 1px solid #9a9a9a;
+	border-top-width: 0px;
+	border-right-width: 0px;
 }
 
 .Text {
-    font-family: "Consolas";
-    font-weight: normal;
-    margin: 0;
-    padding-left: 1.5%;
+	margin: 0;
+	margin-left: 1.5%;
 }
 
 .Link {
-    font-size: 4rem;
-    text-decoration: 0
+	font-size: 4rem;
+	text-decoration: 0;
+	color: #551a8b;
 }
 
 .SmallLink {
-    font-size: 2rem;
-    text-decoration: 0
+	font-size: 2rem;
+	text-decoration: 0;
+	color: #0000ee;
+}
+
+.Socials {
+	font-size: 2rem;
+}
+
+div.Socials {
+	position: absolute;
+	bottom: 0.5%;
+	left: 0.5%;
+}
+
+#Github {
+	position: absolute;
+	bottom: 0.5%;
+	right: 0.5%;
 }
