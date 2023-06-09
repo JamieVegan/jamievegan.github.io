@@ -63,7 +63,8 @@ h1 {
 .SmallLink {
 	font-size: 2rem;
 	text-decoration: 0;
-	color: #0000ee;
+	/*color: #0000ee;*/
+	color: #551a8b;
 }
 
 .Socials {
