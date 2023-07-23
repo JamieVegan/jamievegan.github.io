@@ -33,6 +33,11 @@ h1 {
 	font-size: 4rem;
 }
 
+hr {
+	position: relative;
+	bottom: 1px;
+}
+
 #Back {
 	font-weight: normal;
 	font-size: 2rem;
@@ -41,13 +46,12 @@ h1 {
 	top: 0;
 	right: 0;
 	width: 74px;
-	height: 75px;
+	height: 74px;
 
-	border-radius: 0;
+	border-radius: 0px;
 	border: 1px solid #9a9a9a;
-	border-top-width: 0;
-	border-right-width: 0;
-	border-bottom-width: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
 }
 
 .Text {
