@@ -33,20 +33,21 @@ h1 {
 	font-size: 4rem;
 }
 
-#BackButton {
+#Back {
 	font-weight: normal;
 	font-size: 2rem;
 
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 84px;
-	height: 84px;
+	width: 74px;
+	height: 75px;
 
-	border-radius: 0px;
+	border-radius: 0;
 	border: 1px solid #9a9a9a;
-	border-top-width: 0px;
-	border-right-width: 0px;
+	border-top-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 1px;
 }
 
 .Text {

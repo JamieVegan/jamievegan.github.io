@@ -1,4 +1,4 @@
-document.getElementById("BackButton").onclick = Back
+document.getElementById("Back").onclick = Back
 
 function Back() {
 	window.location.href = "index.html"
