@@ -5,18 +5,18 @@ body {
 
 p {
 	margin: inherit;
-	font-family: "Consolas";
+	font-family: "Arial";
 	font-weight: normal;
 	font-size: 2rem;
 }
 
 a {
-	font-family: "Consolas";
+	font-family: "Arial";
 	font-weight: normal;
 }
 
 h1 {
-	font-family: "Consolas";
+	font-family: "Arial";
 	font-weight: normal;
 }
 
