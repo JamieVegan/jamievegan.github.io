@@ -48,7 +48,7 @@ h1 {
 #Content {
 	position: relative;
 	width: 50%;
-	height: auto;
+	height: 100%;
 	margin: auto auto;
 	background: #ffffff;
 	box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.5);
