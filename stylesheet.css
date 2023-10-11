@@ -1,22 +1,27 @@
+html {
+	overflow-y: scroll;
+}
+
+
 body {
 	background: #f0f0f0;
-	margin: 0
+	margin: 0;
 }
 
 p {
 	margin: inherit;
-	font-family: "Arial";
+	font-family: "Consolas";
 	font-weight: normal;
 	font-size: 2rem;
 }
 
 a {
-	font-family: "Arial";
+	font-family: "Consolas";
 	font-weight: normal;
 }
 
 h1 {
-	font-family: "Arial";
+	font-family: "Consolas";
 	font-weight: normal;
 }
 
@@ -33,20 +38,15 @@ h1 {
 	font-size: 4rem;
 }
 
-hr {
-	position: relative;
-	bottom: 1px;
-}
-
-#Back {
+#BackButton {
 	font-weight: normal;
 	font-size: 2rem;
 
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 74px;
-	height: 74px;
+	width: 84px;
+	height: 84px;
 
 	border-radius: 0px;
 	border: 1px solid #9a9a9a;
@@ -77,13 +77,13 @@ hr {
 }
 
 div.Socials {
-	position: absolute;
+	position: fixed;
 	bottom: 0.5%;
 	left: 0.5%;
 }
 
 #Github {
-	position: absolute;
+	position: fixed;
 	bottom: 0.5%;
 	right: 0.5%;
 }

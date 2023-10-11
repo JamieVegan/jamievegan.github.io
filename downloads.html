@@ -4,15 +4,16 @@
 	<title>Downloads</title>
 	<link rel="shortcut icon" type="png" href="favicon.png">
 	<link rel="stylesheet" href="stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 	<div id="Content">
-		<!--Top-->
+		<!--Back-->
 		<h1 class="Text Title">Downloads</h1>
-		<button id="Back">&lt</button>
-		<hr style="margin: 0;">
-		<!--Top-->
+		<button onclick="Back()" id="BackButton">&#60;</button>
+		<hr>
+		<!--Back-->
 
 		<h1 class="Text Title">Muter</h1>
 		<p class="Text">This is just a test</p>
@@ -26,10 +27,15 @@
 		<a class="SmallLink" href="https://twitch.tv/jamievegan">Twitch<br></a>
 		<a class="SmallLink" href="https://github.com/jamievegan">Github</a>
 	</div>
-	<a class="SmallLink" id="Github" href="https://github.com/jamievegan/jamievegan.github.io">Github Repository</a>
+	<a class="SmallLink" id="Github" href="https://github.com/jamievegan/jamievegan.github.io">Github
+		Repository</a>
 	<!--Links-->
 
-	<script src="Main.js"></script>
+	<script>
+		function Back() {
+			window.location.href = "/";
+		}
+	</script>
 </body>
 
 </html>
