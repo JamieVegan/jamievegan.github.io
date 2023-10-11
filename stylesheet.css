@@ -2,9 +2,13 @@ html {
 	overflow-y: scroll;
 }
 
+h1 {
+	font-size: 4rem;
+}
+
 hr {
-	margin-left: -1%;
-	margin-right: 1%;
+	margin-left: -1.5%;
+	margin-right: 1.5%;
 }
 
 ::-webkit-scrollbar {
@@ -24,7 +28,7 @@ body {
 }
 
 p {
-	margin: inherit;
+	margin: 0;
 	font-family: "Consolas";
 	font-weight: normal;
 	font-size: 2rem;
@@ -36,15 +40,15 @@ a {
 }
 
 h1 {
+	margin: 0;
 	font-family: "Consolas";
 	font-weight: normal;
-	margin: 0;
 }
 
 #Content {
 	position: relative;
 	width: 50%;
-	height: 100%;
+	height: auto;
 	margin: auto auto;
 	background: #ffffff;
 	box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.5);
@@ -52,14 +56,9 @@ h1 {
 
 #ContentMargin {
 	width: 100%;
-	height: 100%;
 
-	margin-left: 1%;
-	margin-right: 1%;
-}
-
-.Title {
-	font-size: 4rem;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
 }
 
 #BackButton {
